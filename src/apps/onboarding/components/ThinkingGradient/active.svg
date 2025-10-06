@@ -1,0 +1,211 @@
+<svg width="1200" height="1000" viewBox="-100 -50 1100 950" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="filter0_f_83_3967" x="103.69" y="0.846191" width="818.347" height="790.222" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_83_3967"/>
+        </filter>
+        <filter id="filter1_f_83_3967" x="0.582275" y="45.6073" width="846.171" height="821.679" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="90" result="effect1_foregroundBlur_83_3967"/>
+        </filter>
+        <linearGradient id="paint0_linear_83_3967" x1="512.864" y1="180.846" x2="512.864" y2="611.068" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D80FF">
+                <animate attributeName="offset" 
+                            values="0; 0.2; 0; 0.15; 0" 
+                            dur="6s" 
+                            repeatCount="indefinite"/>
+                <animate attributeName="stop-color" 
+                            values="#9D80FF; #B380FF; #9D80FF; #A680FF; #9D80FF" 
+                            dur="8s" 
+                            repeatCount="indefinite"/>
+            </stop>
+            <stop offset="1" stop-color="#FF80E1">
+                <animate attributeName="offset" 
+                            values="1; 0.8; 1; 0.85; 1" 
+                            dur="6s" 
+                            repeatCount="indefinite"/>
+                <animate attributeName="stop-color" 
+                            values="#FF80E1; #FF80C1; #FF80E1; #FF80D1; #FF80E1" 
+                            dur="8s" 
+                            repeatCount="indefinite"/>
+            </stop>
+            
+            <!-- Animate gradient coordinates for size changes -->
+            <animateTransform attributeName="gradientTransform" 
+                            type="scale" 
+                            values="1; 1.2; 0.9; 1.1; 1"
+                            dur="7s" 
+                            repeatCount="indefinite"/>
+        </linearGradient>
+        
+        <linearGradient id="paint1_linear_83_3967" x1="424.042" y1="225.607" x2="424.042" y2="687.286" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF9780">
+                <animate attributeName="offset" 
+                            values="0; 0.25; 0; 0.1; 0" 
+                            dur="7s" 
+                            repeatCount="indefinite"/>
+                <animate attributeName="stop-color" 
+                            values="#FF9780; #FFA780; #FF9780; #FF8780; #FF9780" 
+                            dur="9s" 
+                            repeatCount="indefinite"/>
+            </stop>
+            <stop offset="1" stop-color="#E8FF80">
+                <animate attributeName="offset" 
+                            values="1; 0.75; 1; 0.9; 1" 
+                            dur="7s" 
+                            repeatCount="indefinite"/>
+                <animate attributeName="stop-color" 
+                            values="#E8FF80; #D8FF80; #E8FF80; #F8FF80; #E8FF80" 
+                            dur="9s" 
+                            repeatCount="indefinite"/>
+            </stop>
+            
+            <!-- Animate gradient coordinates for size changes -->
+            <animateTransform attributeName="gradientTransform" 
+                            type="scale" 
+                            values="1; 0.8; 1.3; 0.95; 1"
+                            dur="8s" 
+                            repeatCount="indefinite"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- First bubble with floating animation -->
+    <g filter="url(#filter0_f_83_3967)">
+        <path d="M637.098 604.86C582.469 626.167 473.122 588.867 414.225 550.074C355.329 511.282 285.276 419.757 283.719 372.105C282.161 324.453 344.486 295.103 404.881 264.164C465.276 233.224 589.901 160.123 646.087 186.467C702.274 212.812 743.496 352.499 741.998 422.231" 
+                fill="url(#paint0_linear_83_3967)" 
+                fill-opacity="0.7">
+            
+            <!-- Floating translation -->
+            <animateTransform attributeName="transform" 
+                            type="translate" 
+                            values="0,0; 15,-25; -10,-45; 20,-30; 0,0"
+                            dur="8s" 
+                            repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Scaling animation for bubble1 -->
+        <animateTransform attributeName="transform" 
+                        type="scale" 
+                        values="1; 1.05; 0.98; 1.08; 1"
+                        dur="6s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+        
+        <!-- Rotation animation for bubble1 -->
+        <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 512 400; 360 512 400"
+                        dur="20s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+    </g>
+    
+    <!-- Second bubble with different animation -->
+    <g filter="url(#filter1_f_83_3967)">
+        <path d="M583.353 680.41C525.659 699.936 387.717 675.628 320.591 635.828C253.465 596.028 179.383 508.526 180.597 441.611C181.811 374.696 266.881 259.665 327.877 234.337C388.872 209.009 490.09 242.254 546.57 289.643C603.049 337.032 660.623 453.544 666.753 518.672" 
+                fill="url(#paint1_linear_83_3967)" 
+                fill-opacity="0.7">
+            
+            <!-- Floating translation -->
+            <animateTransform attributeName="transform" 
+                            type="translate" 
+                            values="0,0; -20,-35; 25,-50; -15,-40; 10,-25; 0,0"
+                            dur="10s" 
+                            repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Scaling animation for bubble2 -->
+        <animateTransform attributeName="transform" 
+                        type="scale" 
+                        values="1; 0.95; 1.1; 0.98; 1.06; 1"
+                        dur="7s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+        
+        <!-- Rotation animation for bubble2 (opposite direction) -->
+        <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 424 450; -360 424 450"
+                        dur="25s" 
+                        repeatCount="indefinite"
+                        additive="sum"/>
+    </g>
+    
+    <!-- Sparkle effects using SVG -->
+    <g opacity="0.8">
+        <!-- Sparkle 1 -->
+        <circle cx="300" cy="200" r="2" fill="white">
+            <animate attributeName="opacity" 
+                        values="0; 1; 0" 
+                        dur="3s" 
+                        repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" 
+                            type="scale" 
+                            values="0; 1; 0"
+                            dur="3s" 
+                            repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Sparkle 2 -->
+        <circle cx="600" cy="400" r="3" fill="white">
+            <animate attributeName="opacity" 
+                        values="0; 1; 0" 
+                        dur="4s" 
+                        begin="1s"
+                        repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" 
+                            type="scale" 
+                            values="0; 1; 0"
+                            dur="4s" 
+                            begin="1s"
+                            repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Sparkle 3 -->
+        <circle cx="200" cy="600" r="2.5" fill="white">
+            <animate attributeName="opacity" 
+                        values="0; 1; 0" 
+                        dur="3.5s" 
+                        begin="2s"
+                        repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" 
+                            type="scale" 
+                            values="0; 1; 0"
+                            dur="3.5s" 
+                            begin="2s"
+                            repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Sparkle 4 -->
+        <circle cx="700" cy="250" r="2" fill="white">
+            <animate attributeName="opacity" 
+                        values="0; 1; 0" 
+                        dur="2.8s" 
+                        begin="0.5s"
+                        repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" 
+                            type="scale" 
+                            values="0; 1; 0"
+                            dur="2.8s" 
+                            begin="0.5s"
+                            repeatCount="indefinite"/>
+        </circle>
+        
+        <!-- Sparkle 5 -->
+        <circle cx="450" cy="150" r="3" fill="white">
+            <animate attributeName="opacity" 
+                        values="0; 1; 0" 
+                        dur="3.2s" 
+                        begin="1.5s"
+                        repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" 
+                            type="scale" 
+                            values="0; 1; 0"
+                            dur="3.2s" 
+                            begin="1.5s"
+                            repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>

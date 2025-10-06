@@ -1,0 +1,14 @@
+@import "@wordpress/dataviews/build-style/style.css";
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@source: "@";
+
+/* UI Components */
+@import "./ui/Input/style.css";
+@import "tw-animate-css";
+
+.suggerence p {
+  font-size: 12px;
+  margin: 0;
+}

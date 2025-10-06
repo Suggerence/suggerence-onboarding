@@ -4,8 +4,20 @@
         "php": "8.2",
         "wp": "6.8"
     },
-    "plugins": [
-        "suggerence-onboarding"
-    ],
-    "login": true
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin"
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+                "resource": "wordpress.org/plugins",
+                "slug": "suggerence-onboarding"
+            },
+            "options": {
+                "activate": true
+            }
+        }
+    ]
 }

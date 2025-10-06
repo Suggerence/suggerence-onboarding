@@ -18,5 +18,9 @@ yarn.lock
 readme.md
 composer.lock
 
+.gitkeep
+
+CLAUDE.md
+
 /vendor/justinrainbow/json-schema/bin
 /vendor/bin
